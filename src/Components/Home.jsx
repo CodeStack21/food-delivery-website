@@ -64,8 +64,3 @@ export default function Home(){
         </div>
     );
 }
-// useNavigation --> :redirecting after button click
-//                   :redirecting after login / logout
-//                   :redirecting after API responses
-
-// localStorage can store only strings ,not obj
