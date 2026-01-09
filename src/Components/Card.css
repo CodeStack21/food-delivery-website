@@ -1,0 +1,105 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  
+}
+*{
+  font-family: sans-serif;
+}
+/* Card */
+.Card {
+  width: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.Card img {
+  width: 100%;
+  height: 160px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* BODY */
+.cardbody {
+  padding: 12px;
+}
+
+.cardbody h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.cardbody p {
+  font-size: 13px;
+  color: gray;
+  margin-top: 4px;
+}
+
+/* FOOTER */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+/* PRICE */
+.Price {
+  background-color: #f4e1a1;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.old {
+  text-decoration: line-through;
+  color: #3d3d3d;
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+.new {
+  font-weight: bold;
+  font-size: 18px;
+  color: #e63946;
+}
+
+/* CONTROLS */
+.controls {
+  display: flex;
+  gap: 12px;
+  max-width: 1200px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.controls input,
+.controls select {
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.Button {
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #e86c00;
+}
