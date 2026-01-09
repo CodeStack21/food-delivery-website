@@ -1,8 +1,5 @@
 import { useState ,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-
-
 const Signup = () => {
   const navigate = useNavigate();
 
@@ -13,7 +10,6 @@ const Signup = () => {
 
   const isValidEmail = (email) => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    // .test() ---> checks whether the string matches the pattern and return boolean val
   };
 
   const handleSignup = (e) => {
