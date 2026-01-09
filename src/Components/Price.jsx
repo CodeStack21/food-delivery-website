@@ -1,4 +1,3 @@
-// import "./Card.css"
 export default function Price({oldPrice,newPrice}){
     return (
         <div className="bg-amber-200 m-1 rounded px-2 py-1">
