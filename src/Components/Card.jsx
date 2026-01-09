@@ -1,4 +1,4 @@
-// import "./Card.css";
+
 import Price from "./Price.jsx";
 
 export default function Card({product}){
